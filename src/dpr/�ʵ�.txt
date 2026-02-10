@@ -1,0 +1,16 @@
+1. 문서 Pool 파일(.tsv)로부터 문서 벡터 파일 생성
+    (1) DPR/conf/ctx_sources/default_sources.yaml 파일 내 file 이름 수정
+    
+    (2) DPR/generate_dense_embeddings.py 수정
+        90 line - 모델 checkpoint
+        91 line - output file
+    
+    (3) DPR/generate_dense_embeddings.py 실행
+
+2. 검색
+    (1) DPR/dense_retriever.py 수정
+        520 line - query 선언
+        617 line - output file 선언
+    
+    (2) DPR/dense_retriever.py 실행
+

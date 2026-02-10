@@ -1,0 +1,17 @@
+downloads/
+eval/
+index/
+outputs/
+papers/
+result/
+data/*
+!data/queries_eng.json
+src/dpr/checkpoint/
+src/dpr/conf/
+src/dpr/downloads/
+src/dpr/logs/
+src/dpr/outputs/
+__pycache__/
+*.cp
+*.bin
+*.pth
