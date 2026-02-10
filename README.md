@@ -11,11 +11,14 @@ To comply with GitHub's file size limits and ensure high-speed access to large d
 Contains source code, environment configurations, and lightweight query data.
 
 data/queries_eng.json: Experimental queries reflecting real-world information-seeking behaviors.
+
 src/: Implementation of the retrieval pipeline (BM25 and DPR).
 
 ### 2. Hugging Face (Large-scale Assets)
 Contains the heavy document corpus and pre-built vector indices.
 
 Hugging Face Hub: stv10121/pubmed_alzheimer_kb
+
 documents.tsv: External knowledge base consisting of PubMed abstracts (2015–2024).
+
 index/: Pre-computed DPR vector indices for immediate reproduction of our results.
